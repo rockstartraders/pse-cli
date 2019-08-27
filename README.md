@@ -5,6 +5,11 @@
 #### This program was built using Philippine Stock Exchange Composite Index RESTful API.
 #### Please see full API documentation via this page http://phisix-api4.appspot.com/.
 
+# Requirement 
+- This will only work for Python version 3+ 
+
+
+
 
 
 
