@@ -4,6 +4,7 @@ import requests
 import json
 import os
 import datetime
+import readline
 
 
 url = 'http://phisix-api4.appspot.com/stocks/'
