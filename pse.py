@@ -9,6 +9,8 @@ import readline
 import arrow
 import time
 import dateutil.parser
+from progress.bar import PixelBar
+from time import sleep
 
 
 
@@ -19,6 +21,7 @@ while True:
     
     print()
     a = input(u' Stock/Ticker Code: ')  # add u for it to work
+    print()
 
     if a == 'exit':
      break
@@ -26,6 +29,13 @@ while True:
         os.system('clear')
         continue  # reload the page    
     b = '.json'
+
+    with PixelBar(' Fetching Data ...') as bar:   # bar progress
+        for i in range(100):
+            sleep(0.03)
+            bar.next()
+            
+
 
 
 
