@@ -1,4 +1,7 @@
-# pse-cli
+
+<h1><p align="center">
+pse-cli
+</p></h1>
 
 #### This is a simple cli program that can be use to view PSE stock prices via the terminal.
 #### PSE stands for Philippine Stock Exchange.
@@ -8,8 +11,9 @@
 
 <br>
 
-## Requirement 
-- This will only work for Python version 3+ 
+## Requirements
+- This will only work for Python version 3+ (make sure you have it installed).
+- Then Pleae Install the module.sh with sudo privilege.  
 
 <br>
 
@@ -31,15 +35,18 @@
 
    4. run it. 
 
-      #### `./pse.py` or set the `PATH=$PATH:/path/to/dir` to make it internal.
+      #### `./pse.py` or set the `PATH=$PATH:/path/to/dir or you can also set an alias` to make the command  internal.
 
 
   ### Possible error : 
    If ever you received an error stating `bad interpreter: No such file or directory in python`, just go ahead and fix the shebang and indicate the Python version that you are using.
    
    Example: 
-   ### `#!/usr/bin/python3.6 To #!/usr/bin/python3.7`
+   ### `#!/usr/bin/python3` 
+   # ` To: `
+   ### `#!/usr/bin/python3.7`
    
+<br>
 
    Please Note that this will only work on Python Version 3+.  
 
