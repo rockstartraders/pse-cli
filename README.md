@@ -13,7 +13,7 @@ pse-cli
 
 ## Requirements
 - This will only work for Python version 3+ (make sure you have it installed).
-- Then Pleae Install the module.sh with sudo privilege.  
+- Then Please Install the module.sh with sudo privilege.  
 
 <br>
 
